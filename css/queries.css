@@ -54,14 +54,15 @@
 		margin-right: 15px;
 	}
 
+	.welcome {
+		padding-top: 25%;
+	}
 	.welcome h1 {
-		font-size: 550%;
-		transform: translate(+5%, 0); 
+		font-size: 470%;
 	}
 
 	.welcome h2 {
 		font-size: 150%;
-		transform: translate(0, 0); 
 	}
 
 	section h1 { font-size: 275%; }
@@ -80,6 +81,17 @@
 
 /*Small phones: 0-480px*/
 @media only screen and (max-width: 480px) {
+
+	.welcome {
+		padding-top: 40%;
+	}
+	.welcome h1 {
+		font-size: 400%;
+	}
+
+	.welcome h2 {
+		font-size: 140%;
+	}
 
 	section h1 { font-size: 250%; }
 
