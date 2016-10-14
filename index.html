@@ -18,188 +18,193 @@
 </head>
 <body>
 
-<!-- START Header -->
-<header>
-	<nav>
-		<img src="img/logo.png" alt="logo" class="logo">
-		<img src="img/logo-black.png" alt="logo black" class="logo-black">
-		<ul class="main-nav js--main-nav">
-			<li><a href="#reservation">Reservation</a></li>
-			<li><a href="#about">About</a></li>
-			<li><a href="#tryit">Try It</a></li>
-			<li><a href="#menu">Menu</a></li>
-			<li><a href="#contact">Contact</a></li>
+<div class="wrapper">
+	
+	<!-- START Header -->
+	<header>
+		<nav>
+			<img src="img/logo.png" alt="logo" class="logo">
+			<img src="img/logo-black.png" alt="logo black" class="logo-black">
+			<ul class="main-nav js--main-nav">
+				<li><a href="#reservation">Reservation</a></li>
+				<li><a href="#about">About</a></li>
+				<li><a href="#tryit">Try It</a></li>
+				<li><a href="#menu">Menu</a></li>
+				<li><a href="#contact">Contact</a></li>
+			</ul>
+
+			<a class="mobile-nav-icon js--nav-icon"><i class="fa fa-bars"></i></a>
+		</nav>
+		<div class="welcome">
+				<h1>Her's</h1>
+				<h2>Italian Specialities</h2>	
+		</div>
+	</header>
+	<!-- END Header -->
+
+	<!-- START Reservation and About -->
+	<section class="reservation-about js--resabout">
+			<h1>Reservation & About</h1>
+		<section class="reservation" id="reservation">
+			<div class="text-reservation">
+				<h3>Reservation</h3>
+				<p>You can always book a table in our restaurant. We are happy to have you as our guest.</p>
+				<a href="#">BOOK A TABLE</a>
+			</div>
+
+			<img src="img/reservation.jpg" alt="reservation">
+		</section>
+		<section class="about" id="about">
+			<img src="img/about.jpg" alt="about">
+			<div class="text-about">
+				<h3>About</h3>
+				<p>Her's pizzeria is one of the biggest pizzeria chains in the world. We are locted in multiple citites all over the world. You can always visit us and have a good meal and desert for a good price.
+				Our ideology is customer first. So good customer service a our must. Our cozy and unpretentious dining room is accompanied with warm, professional service and we are open all day serving both lunch and dinner.
+				</p>
+			</div>
+		</section>
+	</section>
+
+	<!-- END Reservation and About -->
+
+
+	<!-- START Try It -->
+	<section class="section-tryit" id="tryit">
+		<h1>Try Our Specialties</h1>
+		<ul class="tryit-showcase">
+			<li>
+				<div class="try-meal try-text">
+					<h2>Lasagne</h2>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit architecto debitis.</p>
+				</div>
+			</li>
+			<li>
+				<div class="try-meal">
+					<img src="img/lasagne.jpg" alt="lasagne">
+				</div>
+			</li>
+			<li>
+				<div class="try-meal try-text">
+					<h2>Vegetarian</h2>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit architecto debitis.</p>
+				</div>
+			</li>
+			<li>
+				<div class="try-meal">
+					<img src="img/vegetarian.png" alt="vegetarian">
+				</div>
+			</li>
 		</ul>
-
-		<a class="mobile-nav-icon js--nav-icon"><i class="fa fa-bars"></i></a>
-	</nav>
-	<div class="welcome">
-			<h1>Her's</h1>
-			<h2>Italian Specialities</h2>	
-	</div>
-</header>
-<!-- END Header -->
-
-<!-- START Reservation and About -->
-<section class="reservation-about js--resabout">
-		<h1>Reservation & About</h1>
-	<section class="reservation" id="reservation">
-		<div class="text-reservation">
-			<h3>Reservation</h3>
-			<p>You can always book a table in our restaurant. We are happy to have you as our guest.</p>
-			<a href="#">BOOK A TABLE</a>
-		</div>
-
-		<img src="img/reservation.jpg" alt="reservation">
+		<ul class="tryit-showcase">
+			<li>
+				<div class="try-meal">
+					<img src="img/spaghetti.jpg" alt="spaghetti">
+				</div>
+			</li>
+			<li>
+				<div class="try-meal try-text">
+					<h2>Spaghetti</h2>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit architecto debitis.</p>
+				</div>
+			</li>
+			<li>
+				<div class="try-meal">
+					<img src="img/pizza-slice.jpg" alt="pizza">
+				</div>
+			</li>
+			<li>
+				<div class="try-meal try-text">
+					<h2>Pizza</h2>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit architecto debitis.</p>
+				</div>
+			</li>
+		</ul>
 	</section>
-	<section class="about" id="about">
-		<img src="img/about.jpg" alt="about">
-		<div class="text-about">
-			<h3>About</h3>
-			<p>Her's pizzeria is one of the biggest pizzeria chains in the world. We are locted in multiple citites all over the world. You can always visit us and have a good meal and desert for a good price.
-			Our ideology is customer first. So good customer service a our must. Our cozy and unpretentious dining room is accompanied with warm, professional service and we are open all day serving both lunch and dinner.
-			</p>
-		</div>
-	</section>
-</section>
+	<!-- END Try It -->
 
-<!-- END Reservation and About -->
-
-
-<!-- START Try It -->
-<section class="section-tryit" id="tryit">
-	<h1>Try Our Specialties</h1>
-	<ul class="tryit-showcase">
-		<li>
-			<div class="try-meal try-text">
+	<!-- START Menu -->
+	<section class="menu" id="menu">
+		<h1>Menu</h1>
+		<ul class="food">
+			<li>
+				<h2>ALL Pizzas</h2>
+				<p>15 $</p>
+			</li>
+			<li>
+				<h2>ALL Pastas</h2>
+				<p>12 $</p>
+			</li>
+			<li>
 				<h2>Lasagne</h2>
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit architecto debitis.</p>
-			</div>
-		</li>
-		<li>
-			<div class="try-meal">
-				<img src="img/lasagne.jpg" alt="lasagne">
-			</div>
-		</li>
-		<li>
-			<div class="try-meal try-text">
-				<h2>Vegetarian</h2>
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit architecto debitis.</p>
-			</div>
-		</li>
-		<li>
-			<div class="try-meal">
-				<img src="img/vegetarian.png" alt="vegetarian">
-			</div>
-		</li>
-	</ul>
-	<ul class="tryit-showcase">
-		<li>
-			<div class="try-meal">
-				<img src="img/spaghetti.jpg" alt="spaghetti">
-			</div>
-		</li>
-		<li>
-			<div class="try-meal try-text">
-				<h2>Spaghetti</h2>
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit architecto debitis.</p>
-			</div>
-		</li>
-		<li>
-			<div class="try-meal">
-				<img src="img/pizza-slice.jpg" alt="pizza">
-			</div>
-		</li>
-		<li>
-			<div class="try-meal try-text">
-				<h2>Pizza</h2>
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit architecto debitis.</p>
-			</div>
-		</li>
-	</ul>
-</section>
-<!-- END Try It -->
+				<p>17 $</p>
+			</li>
+			<li>
+				<h2>Vegan Meals</h2>
+				<p>10 $</p>
+			</li>
+			<li>
+				<h2>Sandwiches</h2>
+				<p>8 $</p>
+			</li>
+		</ul>
+		<ul class="deserts">
+			<li>
+				<h2>Tiramisu</h2>
+				<p>15 $</p>
+			</li>
+			<li>
+				<h2>Cannoli</h2>
+				<p>12 $</p>
+			</li>
+			<li>
+				<h2>Cheesecake</h2>
+				<p>17 $</p>
+			</li>
+			<li>
+				<h2>Choco Cup</h2>
+				<p>10 $</p>
+			</li>
+			<li>
+				<h2>Ice Cream</h2>
+				<p>8 $</p>
+			</li>
+		</ul>
+	</section>
+	<!-- END Menu -->
 
-<!-- START Menu -->
-<section class="menu" id="menu">
-	<h1>Menu</h1>
-	<ul class="food">
-		<li>
-			<h2>ALL Pizzas</h2>
-			<p>15 $</p>
-		</li>
-		<li>
-			<h2>ALL Pastas</h2>
-			<p>12 $</p>
-		</li>
-		<li>
-			<h2>Lasagne</h2>
-			<p>17 $</p>
-		</li>
-		<li>
-			<h2>Vegan Meals</h2>
-			<p>10 $</p>
-		</li>
-		<li>
-			<h2>Sandwiches</h2>
-			<p>8 $</p>
-		</li>
-	</ul>
-	<ul class="deserts">
-		<li>
-			<h2>Tiramisu</h2>
-			<p>15 $</p>
-		</li>
-		<li>
-			<h2>Cannoli</h2>
-			<p>12 $</p>
-		</li>
-		<li>
-			<h2>Cheesecake</h2>
-			<p>17 $</p>
-		</li>
-		<li>
-			<h2>Choco Cup</h2>
-			<p>10 $</p>
-		</li>
-		<li>
-			<h2>Ice Cream</h2>
-			<p>8 $</p>
-		</li>
-	</ul>
-</section>
-<!-- END Menu -->
+	<!-- START Contact Form -->
+	<section class="contact-us" id="contact">
+		<h1>Contact Us</h1>
+		<form action="index.html">
+			<label for="yourname">Your <strong>Name</strong></label>
+			<input type="text" id="yourname">
 
-<!-- START Contact Form -->
-<section class="contact-us" id="contact">
-	<h1>Contact Us</h1>
-	<form action="index.html">
-		<label for="yourname">Your <strong>Name</strong></label>
-		<input type="text" id="yourname">
+			<label for="youremail">Your <strong>Email</strong></label>
+			<input type="email" id="youremail">
 
-		<label for="youremail">Your <strong>Email</strong></label>
-		<input type="email" id="youremail">
+			<label for="message">Your <strong>Message</strong></label>
+			<textarea id="message" rows="8" style="resize:none;"></textarea>
 
-		<label for="message">Your <strong>Message</strong></label>
-		<textarea id="message" rows="8" style="resize:none;"></textarea>
+			<input type="submit" value="Send">
+		</form>
+	</section>
+	<!-- END Contact Form -->
 
-		<input type="submit" value="Send">
-	</form>
-</section>
-<!-- END Contact Form -->
+	<!-- START Social -->
+	<footer>
+		<ul class="social-icons">
+			<li class="facebook"><a href="#"><i class="fa fa-facebook"></i></a></li>
+			<li class="google-plus"><a href="#"><i class="fa fa-google-plus"></i></a></li>
+			<li class="twitter"><a href="#"><i class="fa fa-twitter"></i></a></li>
+			<li class="youtube"><a href="#"><i class="fa fa-youtube"></i></a></li>
+			<li class="instagram"><a href="#"><i class="fa fa-instagram"></i></a></li>
+		</ul>
+		<p>&copy; by Jelena, 2016.</p>
+	</footer>
+	<!-- END Social -->
+	
+</div>
 
-<!-- START Social -->
-<footer>
-	<ul class="social-icons">
-		<li class="facebook"><a href="#"><i class="fa fa-facebook"></i></a></li>
-		<li class="google-plus"><a href="#"><i class="fa fa-google-plus"></i></a></li>
-		<li class="twitter"><a href="#"><i class="fa fa-twitter"></i></a></li>
-		<li class="youtube"><a href="#"><i class="fa fa-youtube"></i></a></li>
-		<li class="instagram"><a href="#"><i class="fa fa-instagram"></i></a></li>
-	</ul>
-	<p>&copy; by Jelena, 2016.</p>
-</footer>
-<!-- END Social -->
 <script src="js/jquery-3.1.0.min.js"></script>
 <script src="js/jquery.waypoints.min.js"></script>
 <script src="js/script.js"></script>

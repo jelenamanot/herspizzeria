@@ -58,7 +58,12 @@ p {
 	line-height: 150%;
 	margin: 1% 0;
 }
-/*LINKS*/
+
+/* --- Wrapper --- */
+.wrapper {
+	max-width: 100%;
+	margin: 0 auto;
+}
 
 /*--- START Header ---*/
 header {
